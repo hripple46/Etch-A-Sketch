@@ -1,6 +1,6 @@
 let container = document.querySelector("#container");
 
-for (let i = 0; i < 255; i++) {
+for (let i = 0; i < 256; i++) {
   let boxDiv = document.createElement("div");
   boxDiv.classList.add("boxDiv");
   boxDiv.setAttribute("id", `${i}`);

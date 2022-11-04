@@ -1,18 +1,18 @@
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 #container {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
   height: 100%;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .boxDiv {
   display: inline-block;
-  width: 6.25%;
-  height: 6.25%;
+
   border: black solid;
 }
